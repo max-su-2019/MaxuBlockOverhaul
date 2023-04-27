@@ -1680,6 +1680,8 @@
 				<hkcstring>Animations\WW_Stage7.hkx</hkcstring>
 				<hkcstring>Animations\WW_Stage8.hkx</hkcstring>
 				<hkcstring>Animations\WW_Stage9.hkx</hkcstring>
+				<hkcstring>Animations\MaxsuBlockOverhaul\Maxsu_WeaponBlockHit.hkx</hkcstring>
+				<hkcstring>Animations\MaxsuBlockOverhaul\Maxsu_ShieldBlockHit.hkx</hkcstring>
 			</hkparam>
 			<hkparam name="animationFilenames" numelements="0"></hkparam>
 			<hkparam name="characterPropertyNames" numelements="39">
