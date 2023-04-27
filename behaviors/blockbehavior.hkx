@@ -3421,7 +3421,7 @@
             <hkparam name="enable">true</hkparam>
         </hkobject>
         <hkobject name="#0289" class="hkbClipTriggerArray" signature="0x59c23a0f">
-            <hkparam name="triggers" numelements="3">
+            <hkparam name="triggers" numelements="1">
                 <hkobject>
                     <hkparam name="localTime">0.000000</hkparam>
                     <hkparam name="event">
@@ -3431,30 +3431,6 @@
                         </hkobject>
                     </hkparam>
                     <hkparam name="relativeToEndOfClip">true</hkparam>
-                    <hkparam name="acyclic">false</hkparam>
-                    <hkparam name="isAnnotation">false</hkparam>
-                </hkobject>
-                <hkobject>
-                    <hkparam name="localTime">0.500000</hkparam>
-                    <hkparam name="event">
-                        <hkobject>
-                            <hkparam name="id">5</hkparam>
-                            <hkparam name="payload">null</hkparam>
-                        </hkobject>
-                    </hkparam>
-                    <hkparam name="relativeToEndOfClip">false</hkparam>
-                    <hkparam name="acyclic">false</hkparam>
-                    <hkparam name="isAnnotation">false</hkparam>
-                </hkobject>
-                <hkobject>
-                    <hkparam name="localTime">0.833000</hkparam>
-                    <hkparam name="event">
-                        <hkobject>
-                            <hkparam name="id">6</hkparam>
-                            <hkparam name="payload">null</hkparam>
-                        </hkobject>
-                    </hkparam>
-                    <hkparam name="relativeToEndOfClip">false</hkparam>
                     <hkparam name="acyclic">false</hkparam>
                     <hkparam name="isAnnotation">false</hkparam>
                 </hkobject>
@@ -4057,9 +4033,8 @@
             <hkparam name="variableBindingSet">#0313</hkparam>
             <hkparam name="userData">0</hkparam>
             <hkparam name="name">BlockHit_MSG</hkparam>
-            <hkparam name="generators" numelements="12">
-				#0283 #0271 #0271 #0271 #0271 #0303 #0293 #0271 #0283 #0283 #0273 #0271
-			</hkparam>
+            <hkparam name="generators" numelements="12">#0283 #0271 #0271 #0271 #0271 #0303 #0293 #0271 #0283 #0283 
+#0273 #0271 </hkparam>
             <hkparam name="selectedGeneratorIndex">0</hkparam>
             <hkparam name="currentGeneratorIndex">0</hkparam>
         </hkobject>
@@ -4101,7 +4076,7 @@
             <hkparam name="userData">1</hkparam>
             <hkparam name="name">BlockHit_MG</hkparam>
             <hkparam name="modifier">#0314</hkparam>
-            <hkparam name="generator">#0270</hkparam>
+            <hkparam name="generator">#1000</hkparam>
         </hkobject>
         <hkobject name="#0316" class="hkbStateMachineTransitionInfoArray" signature="0xe397b11e">
             <hkparam name="transitions" numelements="1">
@@ -14789,6 +14764,31 @@
             <hkparam name="stateId">2</hkparam>
             <hkparam name="probability">1.000000</hkparam>
             <hkparam name="enable">true</hkparam>
+        </hkobject>
+        <hkobject name="#1000" class="hkbManualSelectorGenerator" signature="0xd932fab8">
+            <hkparam name="variableBindingSet">#0313</hkparam>
+            <hkparam name="userData">0</hkparam>
+            <hkparam name="name">NewBlockHit_MSG</hkparam>
+            <hkparam name="generators" numelements="12">#1001 #0271 #0271 #0271 #0271 #1001 #1001 #0271 #1001 #1001 
+#0273 #0271 </hkparam>
+            <hkparam name="selectedGeneratorIndex">0</hkparam>
+            <hkparam name="currentGeneratorIndex">0</hkparam>
+        </hkobject>
+        <hkobject name="#1001" class="hkbClipGenerator" signature="0x333b85b9">
+            <hkparam name="variableBindingSet">null</hkparam>
+            <hkparam name="userData">0</hkparam>
+            <hkparam name="name">Maxsu_WeaponBlockHit</hkparam>
+            <hkparam name="animationName">Animations\Maxsu_WeaponBlockHit.hkx</hkparam>
+            <hkparam name="triggers">#0289</hkparam>
+            <hkparam name="cropStartAmountLocalTime">0.000000</hkparam>
+            <hkparam name="cropEndAmountLocalTime">0.000000</hkparam>
+            <hkparam name="startTime">0.000000</hkparam>
+            <hkparam name="playbackSpeed">1.000000</hkparam>
+            <hkparam name="enforcedDuration">0.000000</hkparam>
+            <hkparam name="userControlledTimeFraction">0.000000</hkparam>
+            <hkparam name="animationBindingIndex">-1</hkparam>
+            <hkparam name="mode">MODE_LOOPING</hkparam>
+            <hkparam name="flags">0</hkparam>
         </hkobject>
     </hksection>
 </hkpackfile>
