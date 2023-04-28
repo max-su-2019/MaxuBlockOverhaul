@@ -2,7 +2,7 @@
 <hkpackfile classversion="8" contentsversion="hk_2010.2.0-r1" toplevelobject="#0100">
     <hksection name="__data__">
         <hkobject name="#0101" class="hkbBehaviorGraphStringData" signature="0xc713064e">
-            <hkparam name="eventNames" numelements="39">
+            <hkparam name="eventNames" numelements="41">
                 <hkcstring>blockHitStop</hkcstring>
                 <hkcstring>blockStartOut</hkcstring>
                 <hkcstring>blockHitStart</hkcstring>
@@ -42,6 +42,8 @@
                 <hkcstring>BlockBashSprint</hkcstring>
                 <hkcstring>SoundPlay</hkcstring>
                 <hkcstring>blockStopInstant</hkcstring>
+                <hkcstring>Maxsu_BlockHitWinOpen</hkcstring>
+                <hkcstring>Maxsu_BlockhitWinClose</hkcstring>
             </hkparam>
             <hkparam name="attributeNames" numelements="0" />
             <hkparam name="variableNames" numelements="34">
@@ -533,7 +535,7 @@
                     <hkparam name="type">VARIABLE_TYPE_POINTER</hkparam>
                 </hkobject>
             </hkparam>
-            <hkparam name="eventInfos" numelements="39">
+            <hkparam name="eventInfos" numelements="41">
                 <hkobject>
                     <hkparam name="flags">0</hkparam>
                 </hkobject>
@@ -575,6 +577,12 @@
                 </hkobject>
                 <hkobject>
                     <hkparam name="flags">FLAG_SYNC_POINT</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
                 </hkobject>
                 <hkobject>
                     <hkparam name="flags">0</hkparam>
