@@ -4087,7 +4087,7 @@
             <hkparam name="generator">#1000</hkparam>
         </hkobject>
         <hkobject name="#0316" class="hkbStateMachineTransitionInfoArray" signature="0xe397b11e">
-            <hkparam name="transitions" numelements="1">
+            <hkparam name="transitions" numelements="2">
                 <hkobject>
                     <hkparam name="triggerInterval">
                         <hkobject>
@@ -4113,6 +4113,32 @@
                     <hkparam name="toNestedStateId">0</hkparam>
                     <hkparam name="priority">0</hkparam>
                     <hkparam name="flags">FLAG_DISABLE_CONDITION</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="triggerInterval">
+                        <hkobject>
+                            <hkparam name="enterEventId">39</hkparam>
+                            <hkparam name="exitEventId">40</hkparam>
+                            <hkparam name="enterTime">0.000000</hkparam>
+                            <hkparam name="exitTime">0.000000</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="initiateInterval">
+                        <hkobject>
+                            <hkparam name="enterEventId">-1</hkparam>
+                            <hkparam name="exitEventId">-1</hkparam>
+                            <hkparam name="enterTime">0.000000</hkparam>
+                            <hkparam name="exitTime">0.000000</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="transition">#1004</hkparam>
+                    <hkparam name="condition">null</hkparam>
+                    <hkparam name="eventId">2</hkparam>
+                    <hkparam name="toStateId">3</hkparam>
+                    <hkparam name="fromNestedStateId">0</hkparam>
+                    <hkparam name="toNestedStateId">0</hkparam>
+                    <hkparam name="priority">0</hkparam>
+                    <hkparam name="flags">FLAG_USE_TRIGGER_INTERVAL</hkparam>
                 </hkobject>
             </hkparam>
         </hkobject>
@@ -14678,7 +14704,7 @@
             <hkparam name="maxSimultaneousTransitions">32</hkparam>
             <hkparam name="startStateMode">START_STATE_MODE_DEFAULT</hkparam>
             <hkparam name="selfTransitionMode">SELF_TRANSITION_MODE_NO_TRANSITION</hkparam>
-            <hkparam name="states" numelements="3">#0996 #0997 #0999 </hkparam>
+            <hkparam name="states" numelements="4">#0996 #0997 #0999 #1003 </hkparam>
             <hkparam name="wildcardTransitions">null</hkparam>
         </hkobject>
         <hkobject name="#0996" class="hkbStateMachineStateInfo" signature="0xed7f9d0">
@@ -14813,6 +14839,86 @@
             <hkparam name="animationBindingIndex">-1</hkparam>
             <hkparam name="mode">MODE_SINGLE_PLAY</hkparam>
             <hkparam name="flags">0</hkparam>
+        </hkobject>
+        <hkobject name="#1003" class="hkbStateMachineStateInfo" signature="0xed7f9d0">
+            <hkparam name="variableBindingSet">null</hkparam>
+            <hkparam name="listeners" numelements="0" />
+            <hkparam name="enterNotifyEvents">null</hkparam>
+            <hkparam name="exitNotifyEvents">null</hkparam>
+            <hkparam name="transitions">#1005</hkparam>
+            <hkparam name="generator">#0269</hkparam>
+            <hkparam name="name">NewBlockHit_State_Duplicated</hkparam>
+            <hkparam name="stateId">3</hkparam>
+            <hkparam name="probability">1.000000</hkparam>
+            <hkparam name="enable">true</hkparam>
+        </hkobject>
+        <hkobject name="#1004" class="hkbBlendingTransitionEffect" signature="0xfd8584fe">
+            <hkparam name="variableBindingSet">null</hkparam>
+            <hkparam name="userData">0</hkparam>
+            <hkparam name="name">BlockHitCombos_Transition</hkparam>
+            <hkparam name="selfTransitionMode">SELF_TRANSITION_MODE_BLEND</hkparam>
+            <hkparam name="eventMode">EVENT_MODE_DEFAULT</hkparam>
+            <hkparam name="duration">0.000000</hkparam>
+            <hkparam name="toGeneratorStartTimeFraction">0.000000</hkparam>
+            <hkparam name="flags">0</hkparam>
+            <hkparam name="endMode">END_MODE_NONE</hkparam>
+            <hkparam name="blendCurve">BLEND_CURVE_SMOOTH</hkparam>
+        </hkobject>
+        <hkobject name="#1005" class="hkbStateMachineTransitionInfoArray" signature="0xe397b11e">
+            <hkparam name="transitions" numelements="2">
+                <hkobject>
+                    <hkparam name="triggerInterval">
+                        <hkobject>
+                            <hkparam name="enterEventId">-1</hkparam>
+                            <hkparam name="exitEventId">-1</hkparam>
+                            <hkparam name="enterTime">0.000000</hkparam>
+                            <hkparam name="exitTime">0.000000</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="initiateInterval">
+                        <hkobject>
+                            <hkparam name="enterEventId">-1</hkparam>
+                            <hkparam name="exitEventId">-1</hkparam>
+                            <hkparam name="enterTime">0.000000</hkparam>
+                            <hkparam name="exitTime">0.000000</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="transition">#0171</hkparam>
+                    <hkparam name="condition">null</hkparam>
+                    <hkparam name="eventId">0</hkparam>
+                    <hkparam name="toStateId">0</hkparam>
+                    <hkparam name="fromNestedStateId">0</hkparam>
+                    <hkparam name="toNestedStateId">0</hkparam>
+                    <hkparam name="priority">0</hkparam>
+                    <hkparam name="flags">FLAG_DISABLE_CONDITION</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="triggerInterval">
+                        <hkobject>
+                            <hkparam name="enterEventId">39</hkparam>
+                            <hkparam name="exitEventId">40</hkparam>
+                            <hkparam name="enterTime">0.000000</hkparam>
+                            <hkparam name="exitTime">0.000000</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="initiateInterval">
+                        <hkobject>
+                            <hkparam name="enterEventId">-1</hkparam>
+                            <hkparam name="exitEventId">-1</hkparam>
+                            <hkparam name="enterTime">0.000000</hkparam>
+                            <hkparam name="exitTime">0.000000</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="transition">#1004</hkparam>
+                    <hkparam name="condition">null</hkparam>
+                    <hkparam name="eventId">2</hkparam>
+                    <hkparam name="toStateId">1</hkparam>
+                    <hkparam name="fromNestedStateId">0</hkparam>
+                    <hkparam name="toNestedStateId">0</hkparam>
+                    <hkparam name="priority">0</hkparam>
+                    <hkparam name="flags">FLAG_USE_TRIGGER_INTERVAL</hkparam>
+                </hkobject>
+            </hkparam>
         </hkobject>
     </hksection>
 </hkpackfile>
