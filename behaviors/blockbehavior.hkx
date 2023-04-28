@@ -14770,7 +14770,7 @@
             <hkparam name="userData">0</hkparam>
             <hkparam name="name">NewBlockHit_MSG</hkparam>
             <hkparam name="generators" numelements="12">#1001 #0271 #0271 #0271 #0271 #1001 #1001 #0271 #1001 #1001 
-#0273 #0271 </hkparam>
+#1002 #0271 </hkparam>
             <hkparam name="selectedGeneratorIndex">0</hkparam>
             <hkparam name="currentGeneratorIndex">0</hkparam>
         </hkobject>
@@ -14778,7 +14778,7 @@
             <hkparam name="variableBindingSet">null</hkparam>
             <hkparam name="userData">0</hkparam>
             <hkparam name="name">Maxsu_WeaponBlockHit</hkparam>
-            <hkparam name="animationName">Animations\Maxsu_WeaponBlockHit.hkx</hkparam>
+            <hkparam name="animationName">Animations\MaxsuBlockOverhaul\Maxsu_WeaponBlockHit.hkx</hkparam>
             <hkparam name="triggers">#0289</hkparam>
             <hkparam name="cropStartAmountLocalTime">0.000000</hkparam>
             <hkparam name="cropEndAmountLocalTime">0.000000</hkparam>
@@ -14787,7 +14787,23 @@
             <hkparam name="enforcedDuration">0.000000</hkparam>
             <hkparam name="userControlledTimeFraction">0.000000</hkparam>
             <hkparam name="animationBindingIndex">-1</hkparam>
-            <hkparam name="mode">MODE_LOOPING</hkparam>
+            <hkparam name="mode">MODE_SINGLE_PLAY</hkparam>
+            <hkparam name="flags">0</hkparam>
+        </hkobject>
+        <hkobject name="#1002" class="hkbClipGenerator" signature="0x333b85b9">
+            <hkparam name="variableBindingSet">null</hkparam>
+            <hkparam name="userData">0</hkparam>
+            <hkparam name="name">Maxsu_ShieldBlockHit</hkparam>
+            <hkparam name="animationName">Animations\MaxsuBlockOverhaul\Maxsu_ShieldBlockHit.hkx</hkparam>
+            <hkparam name="triggers">#0289</hkparam>
+            <hkparam name="cropStartAmountLocalTime">0.000000</hkparam>
+            <hkparam name="cropEndAmountLocalTime">0.000000</hkparam>
+            <hkparam name="startTime">0.000000</hkparam>
+            <hkparam name="playbackSpeed">1.000000</hkparam>
+            <hkparam name="enforcedDuration">0.000000</hkparam>
+            <hkparam name="userControlledTimeFraction">0.000000</hkparam>
+            <hkparam name="animationBindingIndex">-1</hkparam>
+            <hkparam name="mode">MODE_SINGLE_PLAY</hkparam>
             <hkparam name="flags">0</hkparam>
         </hkobject>
     </hksection>
