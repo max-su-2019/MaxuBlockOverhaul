@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<hkpackfile classversion="8" contentsversion="hk_2010.2.0-r1" toplevelobject="#0101">
+    <hksection name="__data__">
+        <hkobject name="#0101" class="hkRootLevelContainer" signature="0x2772c11e">
+            <hkparam name="namedVariants" numelements="1">
+                <hkobject>
+                    <hkparam name="name">hkbBehaviorGraph</hkparam>
+                    <hkparam name="className">hkbBehaviorGraph</hkparam>
+                    <hkparam name="variant">#0100</hkparam>
+                </hkobject>
+            </hkparam>
+        </hkobject>
+        <hkobject name="#0100" class="hkbBehaviorGraph" signature="0xb1218f86">
+            <hkparam name="variableBindingSet">null</hkparam>
+            <hkparam name="userData">0</hkparam>
+            <hkparam name="name">NEW_BEHAVIOR</hkparam>
+            <hkparam name="variableMode">VARIABLE_MODE_DISCARD_WHEN_INACTIVE</hkparam>
+            <hkparam name="rootGenerator">#0105</hkparam>
+            <hkparam name="data">#0104</hkparam>
+        </hkobject>
+        <hkobject name="#0104" class="hkbBehaviorGraphData" signature="0x95aca5d">
+            <hkparam name="attributeDefaults" numelements="0" />
+            <hkparam name="variableInfos" numelements="1">
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_BOOL</hkparam>
+                </hkobject>
+            </hkparam>
+            <hkparam name="characterPropertyInfos" numelements="0" />
+            <hkparam name="eventInfos" numelements="2">
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+            </hkparam>
+            <hkparam name="variableInitialValues">#0103</hkparam>
+            <hkparam name="stringData">#0102</hkparam>
+        </hkobject>
+        <hkobject name="#0103" class="hkbVariableValueSet" signature="0x27812d8d">
+            <hkparam name="wordVariableValues" numelements="1">
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+            </hkparam>
+            <hkparam name="quadVariableValues" numelements="0" />
+            <hkparam name="variantVariableValues" numelements="0" />
+        </hkobject>
+        <hkobject name="#0102" class="hkbBehaviorGraphStringData" signature="0xc713064e">
+            <hkparam name="eventNames" numelements="2">
+                <hkcstring>BlockHitStart</hkcstring>
+                <hkcstring>BlockHitStop</hkcstring>
+            </hkparam>
+            <hkparam name="attributeNames" numelements="0" />
+            <hkparam name="variableNames" numelements="1">
+                <hkcstring>IsBlockHit</hkcstring>
+            </hkparam>
+            <hkparam name="characterPropertyNames" numelements="0" />
+        </hkobject>
+        <hkobject name="#0105" class="hkbStateMachine" signature="0x816c1dcb">
+            <hkparam name="variableBindingSet">null</hkparam>
+            <hkparam name="userData">0</hkparam>
+            <hkparam name="name">BlockHitBehavior</hkparam>
+            <hkparam name="eventToSendWhenStateOrTransitionChanges">
+                <hkobject>
+                    <hkparam name="id">-1</hkparam>
+                    <hkparam name="payload">null</hkparam>
+                </hkobject>
+            </hkparam>
+            <hkparam name="startStateChooser">null</hkparam>
+            <hkparam name="startStateId">0</hkparam>
+            <hkparam name="returnToPreviousStateEventId">-1</hkparam>
+            <hkparam name="randomTransitionEventId">-1</hkparam>
+            <hkparam name="transitionToNextHigherStateEventId">-1</hkparam>
+            <hkparam name="transitionToNextLowerStateEventId">-1</hkparam>
+            <hkparam name="syncVariableIndex">-1</hkparam>
+            <hkparam name="wrapAroundStateId">false</hkparam>
+            <hkparam name="maxSimultaneousTransitions">32</hkparam>
+            <hkparam name="startStateMode">START_STATE_MODE_DEFAULT</hkparam>
+            <hkparam name="selfTransitionMode">SELF_TRANSITION_MODE_NO_TRANSITION</hkparam>
+            <hkparam name="states" numelements="1">#0106 </hkparam>
+            <hkparam name="wildcardTransitions">null</hkparam>
+        </hkobject>
+        <hkobject name="#0106" class="hkbStateMachineStateInfo" signature="0xed7f9d0">
+            <hkparam name="variableBindingSet">null</hkparam>
+            <hkparam name="listeners" numelements="0" />
+            <hkparam name="enterNotifyEvents">null</hkparam>
+            <hkparam name="exitNotifyEvents">null</hkparam>
+            <hkparam name="transitions">null</hkparam>
+            <hkparam name="generator">#0107</hkparam>
+            <hkparam name="name">BlockHitState</hkparam>
+            <hkparam name="stateId">0</hkparam>
+            <hkparam name="probability">1.000000</hkparam>
+            <hkparam name="enable">true</hkparam>
+        </hkobject>
+        <hkobject name="#0107" class="hkbModifierGenerator" signature="0x1f81fae6">
+            <hkparam name="variableBindingSet">null</hkparam>
+            <hkparam name="userData">1</hkparam>
+            <hkparam name="name">BlockHitModifierGenerator</hkparam>
+            <hkparam name="modifier">#0108</hkparam>
+            <hkparam name="generator">null</hkparam>
+        </hkobject>
+        <hkobject name="#0108" class="hkbModifierList" signature="0xa4180ca1">
+            <hkparam name="variableBindingSet">null</hkparam>
+            <hkparam name="userData">1</hkparam>
+            <hkparam name="name">ModifierList</hkparam>
+            <hkparam name="enable">true</hkparam>
+            <hkparam name="modifiers" numelements="1">#0109 </hkparam>
+        </hkobject>
+        <hkobject name="#0109" class="BSIsActiveModifier" signature="0xb0fde45a">
+            <hkparam name="variableBindingSet">#0110</hkparam>
+            <hkparam name="userData">2</hkparam>
+            <hkparam name="name">BlockHitIsActiveModifier</hkparam>
+            <hkparam name="enable">true</hkparam>
+            <hkparam name="bIsActive0">false</hkparam>
+            <hkparam name="bInvertActive0">false</hkparam>
+            <hkparam name="bIsActive1">false</hkparam>
+            <hkparam name="bInvertActive1">false</hkparam>
+            <hkparam name="bIsActive2">false</hkparam>
+            <hkparam name="bInvertActive2">false</hkparam>
+            <hkparam name="bIsActive3">false</hkparam>
+            <hkparam name="bInvertActive3">false</hkparam>
+            <hkparam name="bIsActive4">false</hkparam>
+            <hkparam name="bInvertActive4">false</hkparam>
+        </hkobject>
+        <hkobject name="#0110" class="hkbVariableBindingSet" signature="0x338ad4ff">
+            <hkparam name="bindings" numelements="1">
+                <hkobject>
+                    <hkparam name="memberPath">bIsActive0</hkparam>
+                    <hkparam name="variableIndex">0</hkparam>
+                    <hkparam name="bitIndex">-1</hkparam>
+                    <hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+                </hkobject>
+            </hkparam>
+            <hkparam name="indexOfBindingToEnable">-1</hkparam>
+        </hkobject>
+    </hksection>
+</hkpackfile>
