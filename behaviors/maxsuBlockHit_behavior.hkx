@@ -780,7 +780,7 @@
                     <hkparam name="localTime">0.000000</hkparam>
                     <hkparam name="event">
                         <hkobject>
-                            <hkparam name="id">-1</hkparam>
+                            <hkparam name="id">0</hkparam>
                             <hkparam name="payload">null</hkparam>
                         </hkobject>
                     </hkparam>
