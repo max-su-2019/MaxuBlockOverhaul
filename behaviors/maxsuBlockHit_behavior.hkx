@@ -20,7 +20,25 @@
         </hkobject>
         <hkobject name="#0104" class="hkbBehaviorGraphData" signature="0x95aca5d">
             <hkparam name="attributeDefaults" numelements="0" />
-            <hkparam name="variableInfos" numelements="1">
+            <hkparam name="variableInfos" numelements="33">
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_REAL</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_REAL</hkparam>
+                </hkobject>
                 <hkobject>
                     <hkparam name="role">
                         <hkobject>
@@ -30,9 +48,418 @@
                     </hkparam>
                     <hkparam name="type">VARIABLE_TYPE_BOOL</hkparam>
                 </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_REAL</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_REAL</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_BOOL</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_REAL</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_REAL</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_BOOL</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_BOOL</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_INT32</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_REAL</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_REAL</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_INT32</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_BOOL</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_INT32</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_BOOL</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_INT32</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_INT32</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_REAL</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_INT32</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_INT32</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_INT32</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_BOOL</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_REAL</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_REAL</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_REAL</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_BOOL</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_BOOL</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_INT32</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_BOOL</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_REAL</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_REAL</hkparam>
+                </hkobject>
             </hkparam>
-            <hkparam name="characterPropertyInfos" numelements="0" />
-            <hkparam name="eventInfos" numelements="2">
+            <hkparam name="characterPropertyInfos" numelements="3">
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">0</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_POINTER</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">FLAG_NOT_CHARACTER_PROPERTY|FLAG_HIDDEN|FLAG_NOT_VARIABLE|FLAG_NORMALIZED|FLAG_NONE|0x1680</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_POINTER</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="role">
+                        <hkobject>
+                            <hkparam name="role">ROLE_DEFAULT</hkparam>
+                            <hkparam name="flags">FLAG_NOT_CHARACTER_PROPERTY|FLAG_HIDDEN|FLAG_NOT_VARIABLE|FLAG_NORMALIZED|FLAG_NONE|0x1680</hkparam>
+                        </hkobject>
+                    </hkparam>
+                    <hkparam name="type">VARIABLE_TYPE_POINTER</hkparam>
+                </hkobject>
+            </hkparam>
+            <hkparam name="eventInfos" numelements="39">
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">FLAG_SYNC_POINT</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">FLAG_SYNC_POINT</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">FLAG_SYNC_POINT</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">FLAG_SYNC_POINT</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="flags">0</hkparam>
+                </hkobject>
                 <hkobject>
                     <hkparam name="flags">0</hkparam>
                 </hkobject>
@@ -40,28 +467,199 @@
                     <hkparam name="flags">0</hkparam>
                 </hkobject>
             </hkparam>
+            <hkparam name="wordMinVariableValues" numelements="0" />
+            <hkparam name="wordMaxVariableValues" numelements="0" />
             <hkparam name="variableInitialValues">#0103</hkparam>
             <hkparam name="stringData">#0102</hkparam>
         </hkobject>
         <hkobject name="#0103" class="hkbVariableValueSet" signature="0x27812d8d">
-            <hkparam name="wordVariableValues" numelements="1">
+            <hkparam name="wordVariableValues" numelements="33">
+                <hkobject>
+                    <hkparam name="value">1045220557</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">1028443341</hkparam>
+                </hkobject>
                 <hkobject>
                     <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">1050253722</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">1045220557</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">1</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">1056964608</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">4</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">1</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">0</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">1084227584</hkparam>
+                </hkobject>
+                <hkobject>
+                    <hkparam name="value">1051931443</hkparam>
                 </hkobject>
             </hkparam>
             <hkparam name="quadVariableValues" numelements="0" />
             <hkparam name="variantVariableValues" numelements="0" />
         </hkobject>
         <hkobject name="#0102" class="hkbBehaviorGraphStringData" signature="0xc713064e">
-            <hkparam name="eventNames" numelements="2">
-                <hkcstring>BlockHitStart</hkcstring>
-                <hkcstring>BlockHitStop</hkcstring>
+            <hkparam name="eventNames" numelements="39">
+                <hkcstring>blockHitStop</hkcstring>
+                <hkcstring>blockStartOut</hkcstring>
+                <hkcstring>blockHitStart</hkcstring>
+                <hkcstring>blockAnticipateStart</hkcstring>
+                <hkcstring>blockAnticipateStop</hkcstring>
+                <hkcstring>InitiateWinBegin</hkcstring>
+                <hkcstring>InitiateWinEnd</hkcstring>
+                <hkcstring>moveStop</hkcstring>
+                <hkcstring>moveStart</hkcstring>
+                <hkcstring>turnStop</hkcstring>
+                <hkcstring>turnLeft</hkcstring>
+                <hkcstring>turnRight</hkcstring>
+                <hkcstring>FootLeft</hkcstring>
+                <hkcstring>FootRight</hkcstring>
+                <hkcstring>SprintStop</hkcstring>
+                <hkcstring>SprintStart</hkcstring>
+                <hkcstring>FootScuffLeft</hkcstring>
+                <hkcstring>FootScuffRight</hkcstring>
+                <hkcstring>bashRelease</hkcstring>
+                <hkcstring>preHitFrame</hkcstring>
+                <hkcstring>bashFail</hkcstring>
+                <hkcstring>CyclicFreeze</hkcstring>
+                <hkcstring>CyclicCrossBlend</hkcstring>
+                <hkcstring>SoundPlay.NPCHumanCombatShieldBlock</hkcstring>
+                <hkcstring>blockStop</hkcstring>
+                <hkcstring>SoundPlay.NPCHumanCombatShieldRelease</hkcstring>
+                <hkcstring>blockStart</hkcstring>
+                <hkcstring>SneakStart</hkcstring>
+                <hkcstring>SneakStop</hkcstring>
+                <hkcstring>tailCombatIdle</hkcstring>
+                <hkcstring>tailSneakIdle</hkcstring>
+                <hkcstring>tailCombatLocomotion</hkcstring>
+                <hkcstring>tailSneakLocomotion</hkcstring>
+                <hkcstring>Event00</hkcstring>
+                <hkcstring>attackStop</hkcstring>
+                <hkcstring>arrowDetach</hkcstring>
+                <hkcstring>BlockBashSprint</hkcstring>
+                <hkcstring>SoundPlay</hkcstring>
+                <hkcstring>blockStopInstant</hkcstring>
             </hkparam>
             <hkparam name="attributeNames" numelements="0" />
-            <hkparam name="variableNames" numelements="1">
+            <hkparam name="variableNames" numelements="33">
+                <hkcstring>blendDefault</hkcstring>
+                <hkcstring>blendFast</hkcstring>
                 <hkcstring>IsBlockHit</hkcstring>
+                <hkcstring>blendMoveStop</hkcstring>
+                <hkcstring>blendMoveStart</hkcstring>
+                <hkcstring>IsPlayer</hkcstring>
+                <hkcstring>TurnDelta</hkcstring>
+                <hkcstring>TurnDeltaDamped</hkcstring>
+                <hkcstring>IsNPC</hkcstring>
+                <hkcstring>IsFirstPerson</hkcstring>
+                <hkcstring>iSyncTurnState</hkcstring>
+                <hkcstring>Direction</hkcstring>
+                <hkcstring>SpeedSampled</hkcstring>
+                <hkcstring>i1stPerson</hkcstring>
+                <hkcstring>IsSprinting</hkcstring>
+                <hkcstring>iSyncIdleLocomotion</hkcstring>
+                <hkcstring>IsBlocking</hkcstring>
+                <hkcstring>iLeftHandType</hkcstring>
+                <hkcstring>iRightHandType</hkcstring>
+                <hkcstring>TurnMin</hkcstring>
+                <hkcstring>iState</hkcstring>
+                <hkcstring>iState_NPCBlocking</hkcstring>
+                <hkcstring>iBlockState</hkcstring>
+                <hkcstring>IsAttackReady</hkcstring>
+                <hkcstring>camerafromx</hkcstring>
+                <hkcstring>camerafromy</hkcstring>
+                <hkcstring>camerafromz</hkcstring>
+                <hkcstring>AllowBlockModify</hkcstring>
+                <hkcstring>bAllowRotation</hkcstring>
+                <hkcstring>iIsInSneak</hkcstring>
+                <hkcstring>IsSneaking</hkcstring>
+                <hkcstring>RotMax</hkcstring>
+                <hkcstring>blendMove1stP</hkcstring>
             </hkparam>
-            <hkparam name="characterPropertyNames" numelements="0" />
+            <hkparam name="characterPropertyNames" numelements="3">
+                <hkcstring>ExcludeRoot+Cam+CamCtrl+Look</hkcstring>
+                <hkcstring>Arms</hkcstring>
+                <hkcstring>UpperBody</hkcstring>
+            </hkparam>
         </hkobject>
         <hkobject name="#0105" class="hkbStateMachine" signature="0x816c1dcb">
             <hkparam name="variableBindingSet">null</hkparam>
