@@ -23,7 +23,7 @@
 			<!-- referenceCount SERIALIZE_IGNORED -->
 			<hkparam name="deformableSkinNames" numelements="0"></hkparam>
 			<hkparam name="rigidSkinNames" numelements="0"></hkparam>
-			<hkparam name="animationNames" numelements="1658">
+			<hkparam name="animationNames" numelements="1660">
 				<hkcstring>Animations\1HM_1stP_Run.hkx</hkcstring>
 				<hkcstring>Animations\1hm_1stP_Walk.hkx</hkcstring>
 				<hkcstring>Animations\1HM_AttackForwardSprint.hkx</hkcstring>
@@ -1682,6 +1682,8 @@
 				<hkcstring>Animations\WW_Stage9.hkx</hkcstring>
 				<hkcstring>Animations\MaxsuBlockOverhaul\Maxsu_WeaponBlockHit.hkx</hkcstring>
 				<hkcstring>Animations\MaxsuBlockOverhaul\Maxsu_ShieldBlockHit.hkx</hkcstring>
+				<hkcstring>Animations\MaxsuBlockOverhaul\Maxsu_WeaponGuardBreak.hkx</hkcstring>
+				<hkcstring>Animations\MaxsuBlockOverhaul\Maxsu_ShieldGuardBreak.hkx</hkcstring>
 			</hkparam>
 			<hkparam name="animationFilenames" numelements="0"></hkparam>
 			<hkparam name="characterPropertyNames" numelements="39">
