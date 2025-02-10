@@ -187,8 +187,8 @@
                     <hkparam name="value">1051931443</hkparam>
                 </hkobject>
             </hkparam>
-            <hkparam name="quadVariableValues" numelements="0" />
-            <hkparam name="variantVariableValues" numelements="0" />
+            <hkparam name="quadVariableValues" numelements="0"></hkparam>
+            <hkparam name="variantVariableValues" numelements="0"></hkparam>
         </hkobject>
         <hkobject name="#0103" class="hkbBehaviorGraphData" signature="0x95aca5d">
             <hkparam name="attributeDefaults" numelements="0" />
@@ -14595,7 +14595,7 @@
             <hkparam name="indexOfBindingToEnable">-1</hkparam>
         </hkobject>
         <hkobject name="#0993" class="hkbStateMachine" signature="0x816c1dcb">
-            <hkparam name="variableBindingSet">#0992</hkparam>
+            <hkparam name="variableBindingSet">null</hkparam>
             <hkparam name="userData">0</hkparam>
             <hkparam name="name">BlockBehavior</hkparam>
             <hkparam name="eventToSendWhenStateOrTransitionChanges">
@@ -14615,9 +14615,7 @@
             <hkparam name="maxSimultaneousTransitions">32</hkparam>
             <hkparam name="startStateMode">START_STATE_MODE_DEFAULT</hkparam>
             <hkparam name="selfTransitionMode">SELF_TRANSITION_MODE_NO_TRANSITION</hkparam>
-            <hkparam name="states" numelements="2">
-				#0991 #0107
-			</hkparam>
+            <hkparam name="states" numelements="2">#0991 #0107 </hkparam>
             <hkparam name="wildcardTransitions">null</hkparam>
         </hkobject>
         <hkobject name="#0994" class="hkbBehaviorGraph" signature="0xb1218f86">
